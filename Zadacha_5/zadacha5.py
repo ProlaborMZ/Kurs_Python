@@ -17,10 +17,8 @@ for i in range(countCoin):
   if int(coins[0]) == 1:
     m += 1
 print(f"Всего монет {m, k}")
-
 if m > k:
   rezult = k
 else:
   rezult = m
-
 print(f"Минимальное количество монет, которые нужно перевернуть: {rezult}")
